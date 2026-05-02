@@ -340,6 +340,8 @@ dig @localhost company.local
 ```
 
 ![ubuntu-dig-localhost](../screenshots/23.png)
+
+
 _(Shows dig output with ANSWER SECTION returning 192.168.20.101)_
 
 Expected answer section:
@@ -366,6 +368,8 @@ dig @192.168.20.101 company.local
 ```
 
 ![ubuntu-ping-pfsense-and-dig](../screenshots/26.png)
+
+
 _(Shows ping to pfSense succeeding + dig result from network IP)_
 
 This confirms BIND9 is listening on the network interface — not just
