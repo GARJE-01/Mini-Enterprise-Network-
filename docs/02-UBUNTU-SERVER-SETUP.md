@@ -396,6 +396,8 @@ ping myserver.local
 ```
 
 ![dns-ping-myserver-local](../screenshots/1.png)
+
+
 _(Shows Windows pinging myserver.local — resolves to 192.168.20.101)_
 
 ### Verification — external DNS forwarding from Windows
@@ -405,6 +407,8 @@ nslookup google.com
 ```
 
 ![dns-nslookup-google](../screenshots/2.png)
+
+
 _(Shows nslookup with server 192.168.20.101 resolving google.com)_
 
 This confirms:
@@ -608,6 +612,8 @@ http://192.168.20.101
 ```
 
 ![apache-via-ip](../screenshots/22.png)
+
+
 _(Shows browser at 192.168.20.101 displaying "Welcome to My Network lab")_
 
 ### Verification — access by domain name
@@ -617,6 +623,8 @@ http://company.local
 ```
 
 ![26-apache-via-domain](../screenshots/27.png)
+
+
 _(Shows browser at company.local displaying the same page)_
 
 Accessing by domain name proves the full DNS → HTTP chain is working:
@@ -711,6 +719,8 @@ ls /srv/samba/shared
 ```
 
 ![05-samba-linux-server-side](screenshots/4.png)
+
+
 _(Shows terminal with drwxrwxrwx permissions and test.txt inside)_
 
 Expected output:
@@ -731,6 +741,8 @@ Open File Explorer and type in the address bar:
 Or press Win+R and type the same path.
 
 ![04-samba-windows-server-side](screenshots/3.png)
+
+
 _(Shows Windows File Explorer at \\192.168.211.133\CompanyShare with test.txt visible)_
 
 The `test.txt` file visible in Windows was created on the Linux server —
