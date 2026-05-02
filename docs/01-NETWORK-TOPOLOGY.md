@@ -17,8 +17,8 @@ Both parts are intentionally separate. Packet Tracer cannot communicate with rea
 ## Part A — Packet Tracer Topology
 
 ### Screenshot
-> ![Full topology](screenshots/0.png)
-> *(Full topology view showing ISP, R1, SW1, and all 4 VLAN PCs)*
+![Full topology](screenshots/0.png)
+*(Full topology view showing ISP, R1, SW1, and all 4 VLAN PCs)*
 
 ### Topology Diagram
 
