@@ -718,7 +718,7 @@ ls -ld /srv/samba/shared
 ls /srv/samba/shared
 ```
 
-![05-samba-linux-server-side](screenshots/4.png)
+![05-samba-linux-server-side](../screenshots/4.png)
 
 
 _(Shows terminal with drwxrwxrwx permissions and test.txt inside)_
@@ -740,7 +740,7 @@ Open File Explorer and type in the address bar:
 
 Or press Win+R and type the same path.
 
-![04-samba-windows-server-side](screenshots/3.png)
+![04-samba-windows-server-side](../screenshots/3.png)
 
 
 _(Shows Windows File Explorer at \\192.168.211.133\CompanyShare with test.txt visible)_
