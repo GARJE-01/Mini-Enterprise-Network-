@@ -271,7 +271,6 @@ _Real-time DNSBL block log — advertising beacons blocked automatically_
 | [04-PFSENSE-FIREWALL-RULES.md](docs/04-PFSENSE-FIREWALL-RULES.md) | All 7 rules — DNS enforcement architecture explained      |
 | [05-PFBLOCKERNG-SETUP.md](docs/05-PFBLOCKERNG-SETUP.md)           | pfBlockerNG install, DNSBL, YouTube block, reports        |
 | [06-TROUBLESHOOTING.md](docs/06-TROUBLESHOOTING.md)               | 12 real errors faced — root cause and fix for each        |
-| [07-RESUME-AND-LINKEDIN.md](docs/07-RESUME-AND-LINKEDIN.md)       | Resume bullets and LinkedIn post                          |
 
 ---
 
