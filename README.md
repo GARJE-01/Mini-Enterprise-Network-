@@ -178,6 +178,7 @@ Address:  10.10.10.1    ← sinkhole IP — blocked ✅
 
 ![pfBlockerNG Alerts](screenshots/44.png)
 
+
 Real-time proof of pfBlockerNG actively blocking advertising
 and tracking domains from the Windows PC.
 
@@ -188,52 +189,74 @@ and tracking domains from the Windows PC.
 ### Network Topology
 
 ![Packet Tracer Topology](screenshots/0.png)
+
+
 _4-VLAN enterprise topology in Cisco Packet Tracer_
 
 ### DNS Verification
 
 ![DNS Ping](screenshots/1.png)
+
+
 _Windows pinging myserver.local — DNS resolving correctly_
 
 ![External DNS](screenshots/2.png)
+
+
 _External DNS forwarding working — google.com resolves via Ubuntu BIND9_
 
 ### Samba File Server
 
 ![Samba Windows](screenshots/3.png)
+
+
 _Windows File Explorer accessing CompanyShare on Linux server_
 
 ### Apache Web Server
 
 ![Apache IP](screenshots/22.png)
+
+
 _Company intranet page accessed by IP_
 
 ![Apache Domain](screenshots/27.png)
+
+
 _Company intranet page accessed by domain name — full DNS chain working_
 
 ### pfSense Dashboard
 
 ![pfSense Dashboard](screenshots/10.png)
+
+
 _pfSense dashboard showing both interfaces UP_
 
 ### pfSense DHCP
 
 ![pfSense DHCP](screenshots/12.png)
+
+
 _DHCP pool 192.168.20.100 – 192.168.20.199 configured_
 
 ### pfBlockerNG
 
 ![pfBlockerNG](screenshots/38.png)
+
+
 _DNSBL groups — ADs_Basic active with 16,998 domains_
 
 ### YouTube Blocked
 
 ![YouTube Blocked](screenshots/43.png)
+
+
 _YouTube resolves to sinkhole 10.10.10.1 — blocked_
 
 ### Live Block Alerts
 
 ![Block Alerts](screenshots/44.png)
+
+
 _Real-time DNSBL block log — advertising beacons blocked automatically_
 
 ---
