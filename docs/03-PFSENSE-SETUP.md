@@ -168,7 +168,7 @@ Default credentials:
 
 ### Screenshot
 
-![07-pfsense-setup-wizard](screenshots/6.png)
+![07-pfsense-setup-wizard](../screenshots/6.png)
 
 _(Shows welcome screen of pfSense Setup Wizard)_
 
